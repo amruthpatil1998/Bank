@@ -7,6 +7,7 @@ import com.bank.pkg.entity.Bank;
 public class BankUtil {
 
 	public boolean verified(Bank b) {
+		
 		String regex = "[a-zA-Z]+\\.?";
 		String regex1 = "\\d{10}|(?:\\d{3}-){2}\\d{4}|\\(\\d{3}\\)\\d{3}-?\\d{4}";
 		String regex2 = "^(0?[1-9]|[1-9][0-9]|[1][1-9][1-9]|200)$";
@@ -34,6 +35,5 @@ public class BankUtil {
 
 		return true;
 	}
-	
 
 }
