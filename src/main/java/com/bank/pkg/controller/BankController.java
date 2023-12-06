@@ -15,7 +15,7 @@ public class BankController {
 	BankService resister;
 
 	@GetMapping("/msg")
-	public String test() {
+	public String msg() { 
 		return "hai iam banking application";
 	}
 	
