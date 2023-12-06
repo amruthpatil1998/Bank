@@ -13,6 +13,11 @@ public class BankController {
 
 	@Autowired
 	BankService resister;
+
+	@GetMapping("/msg")
+	public String test() {
+		return "hai iam banking application";
+	}
 	
 	@GetMapping("/test")
 	public String test() {
