@@ -15,7 +15,7 @@ public class Bank {
 	@GeneratedValue(generator = "uuid")
 	@GenericGenerator(name = "uuid", strategy = "uuid2")
 	private String accNo;
-	private String bankName;
+	private String BankName;
 	private String name;
 	private String age;
 	private String passward;
